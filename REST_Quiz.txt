@@ -1,0 +1,4 @@
+1. Rest is a form of commonly used API which uses files, most commonly jcom, and are sent through https.  
+2. The benefits of REST are cachability, where data is stored client side for a task. REST is also easily set up with https.
+3. REST APIs are stateful because they use https to travel through, and use files such as jcom.
+4. There is a relationship between REST and CRUD. An example of this would be a person creating a resource, which is then retrieved by REST, then uploaded, and finally deleted.

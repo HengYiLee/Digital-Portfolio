@@ -1,0 +1,4 @@
+1. The MVC paradigm is the model, view, controller paradigm.
+2. The benefit of using this paradigm is that the communication between the model, view, and controller allow for interactions between the server and client.
+3. The paradigm is designed to increasing coupling because it makes sure the server and client are not independent of each other.
+4. It is possible for multiple views to be associated with the same model, and an example would be the views of clients in a game all connecting to one model.
