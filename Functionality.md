@@ -48,6 +48,9 @@ Ability to import your old courses and program will tell you what classes you ne
 
 The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
 
+Fetches data from other student's reservation of courses, and displays that on a bar scale that identifies the popularity of that course. 
+
 ### Design
+Displays the bar scale onto a sub-menu that appears when user hovers cursor over the course.
 
 ### QA
