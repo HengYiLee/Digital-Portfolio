@@ -2,8 +2,9 @@
 
 ### Functionality
 
+Map of each campus is shown, displaying the location of each class that is selected.
 
-### Desgin
+### Design
 
 ### QA
 
@@ -12,30 +13,41 @@
 
 ### Functionality
 
-### Desgin
+Survey system that recommends classes to students based on their interests/career path.
+
+### Design
 
 ### QA
+
 
 # Feature 3
 
 ### Functionality
 
-### Desgin
+The number of available seats is displayed for a class (not teacher specific).
+
+### Design
 
 ### QA
+
 
 # Feature 4
 
 ### Functionality
 
-### Desgin
+Ability to import your old courses and program will tell you what classes you need to graduate. 
+
+### Design
 
 ### QA
+
 
 # Feature 5
 
 ### Functionality
 
-### Desgin
+The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
+
+### Design
 
 ### QA
