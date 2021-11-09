@@ -5,6 +5,7 @@
 Map of each campus is shown, displaying the location of each class that is selected.
 
 ### Design
+Tab titled "Map", which has a location of all the room numbers + classes taught in those rooms. After selecting classes, it will show the room number of said class, and the location of the room relative to the building. Classes which are chosen are highlighted. Also draws a path between the classes based on the order of the schedule.
 
 ### QA
 
