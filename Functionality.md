@@ -12,7 +12,7 @@ Map of each campus is shown, displaying the location of each class that is selec
 # Feature 2
 
 ### Functionality
-Survey system that recommends classes to students based on their interests/career path.
+Survey system that recommends classes to students based on their interests/career path. ,,,
 
 ### Design
 
