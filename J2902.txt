@@ -1,3 +1,21 @@
+DATE 10-Nov-2021
+=====================================================
+What did I learn today? What is the "big idea"?
+I learned about the designs of functionalities of our scheduling application.
+What challenges did I encounter?
+I encountered the challenge of the descriptions of functionalities of application being too vague, so I simply asked the person who put them there and they answered with more detail.
+How has what I've learned impacted my thinking?
+This has impacted my thinking by helping solidify how I should ask for help if I'm stuck on a problem.
+
+DATE 8-Nov-2021
+=====================================================
+What did I learn today? What is the "big idea"?
+I learned about how to properly format and figure out the designs of functionalities of some of our scheduling application.
+What challenges did I encounter?
+I enountered the challenge of not knowing exactly what the functionality was which limited my information and therefore designs of the functionality.
+How has what I've learned impacted my thinking?
+This has impacted my thinking by changing my mind in how to approach the process of figuring out functionalities.
+
 DATE 5-Nov-2021
 =====================================================
 What did I learn today? What is the "big idea"?
