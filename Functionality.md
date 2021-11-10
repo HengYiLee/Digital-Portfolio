@@ -64,6 +64,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 6
 
+Shows GPA scale of the class
+
 ### Functionality
 
 ### Design
@@ -72,6 +74,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 
 # Feature 7
+
+Warns about incapability to schedule classes together
 
 ### Functionality
 
@@ -82,6 +86,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 8
 
+Lunch's need to be shown (with the location)
+
 ### Functionality
 
 ### Design
@@ -90,6 +96,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 
 # Feature 9
+
+Course summary
 
 ### Functionality
 
@@ -100,6 +108,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 10
 
+Rate my teacher system
+
 ### Functionality
 
 ### Design
@@ -108,6 +118,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 
 # Feature 11
+
+Popularity of classes
 
 ### Functionality
 
@@ -118,6 +130,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 12
 
+Ability to save schedules
+
 ### Functionality
 
 ### Design
@@ -126,6 +140,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 
 # Feature 13
+
+Share option with yourself or friends
 
 ### Functionality
 
@@ -136,6 +152,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 14
 
+Show Transportation Schedule
+
 ### Functionality
 
 ### Design
@@ -145,6 +163,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 15
 
+Change background colors (light/DARK VADER mode) 
+
 ### Functionality
 
 ### Design
@@ -152,6 +172,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 ### QA
 
 # Feature 16
+
+Prerequisites of classes 
 
 ### Functionality
 
@@ -161,6 +183,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 17
 
+Auto make scehdule (WITH OPTMOIZATION) or randomizer
+
 ### Functionality
 
 ### Design
@@ -168,6 +192,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 ### QA
 
 # Feature 18
+
+Bug filing system
 
 ### Functionality
 
@@ -177,6 +203,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 # Feature 19
 
+Feedback form
+
 ### Functionality
 
 ### Design
@@ -184,6 +212,8 @@ The popularity or percentage of students scheduled in a class should be displaye
 ### QA
 
 # Feature 20
+
+Gives you 50 eagle engagement points
 
 ### Functionality
 
