@@ -164,9 +164,15 @@ Change background colors (light/DARK VADER mode)
 
 ### Functionality
 
+Baiscally within your setting options you should be able to choose the background colors of the app to what is most aesthetically pleasing to you. You have your two baisc options Light mode and Dark mode, as well as a advadvanced option of a color wheel to make a background color of your preference. If you want to include a color code, there will be an option for that as well in whihc you can enter a color code into the search box option and have that as your background color. Once you've chosen your select color, there will be a save button which will save your background color for future revisits of the app. 
+	For the secondary colors like the text, and other buttons on the app, it will automatically set as a contrast color in order to maxamize the ease of use. There also might be restrictions on which colors you are able to choose. For example, neon colors like a extremley bright yellow might be harmful for the vision of these viewers and therefore be banned. This will be used to personalize each users app, and make it more user interactive.  
+	
 ### Design
 
 ### QA
+	
+Some errors that might be included in this particular feature is colors not saving, certain colors give eyestrain and were not banned, colors will not change from default setting, contrast color not good for the current background color in use. Other issues might be not being able to get out of the settings window, and colors not matching with its description. Another issue might be colors do ot fill the entire page, or possibly colors used in a different background besides the main background available.
+	Of course the best way to find these issues, will be through intenst testing, as well as some research on which colors might cause eyestrain, and problems for viewing. Another way to fix these issues is through the reporting through bug issues. Mostly these issues will probably be through HTML, and website coding. 
 
 # Feature 16
 
@@ -174,9 +180,17 @@ Prerequisites of classes
 
 ### Functionality
 
+	The user will be able to, upon clicking on the class, to see the required prerequisites or see it on the short description. There will also be an option after clicking the classes to be able to click on the prerequisite classes and see the description for the prerequisite. This process will continue until there are no prerequisites remaining. The class that comes after will also be mentioned and linked and if the class is part of a pathway, the pathway will be mentioned as well.
+	Another option will include recommended or related classes. These classes are not required, for example principles of engineering with computere science, but are reccommended for specific career paths or further understanding. These classes will also be linkable and one can navigate to find these classes if they are interested to do so.
+
 ### Design
 
+	The prerequisites and other classes mentioned will all be underlined and in a cobalt blue, or yellow when in dark mode. Colors are still up for discussion for the designers of the app, however. Hovering over the prerequisites will show the link the class link will lead to in the alt text. The font will not change, however, for consistency reasons, as well will the size of the font. 
+	The pages the link will lead to will just be the class descriptions on the side. When asking for a full list, the list will replace the "classes list" on the left. The background color will stay the same as well as the font and text colors in the rectangle.
+
 ### QA
+
+The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out, 
 
 # Feature 17
 
