@@ -50,9 +50,10 @@ To assure the quality of this function, we must make sure that the questionaire 
 
 # Feature 5
 
+Course Popularity Scale
+
 ### Functionality
 The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
-
 Fetches data from other student's reservation of courses, and displays that on a bar scale that identifies the popularity of that course. Takes into consideration if the student selecting the course has taken the required prerequisites for that course.
 
 ### Design
