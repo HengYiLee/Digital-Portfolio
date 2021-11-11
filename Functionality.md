@@ -50,17 +50,14 @@ To assure the quality of this function, we must make sure that the questionaire 
 
 # Feature 5
 
-Course Popularity Scale
-
 ### Functionality
+
 The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
-Fetches data from other student's reservation of courses, and displays that on a bar scale that identifies the popularity of that course. Takes into consideration if the student selecting the course has taken the required prerequisites for that course.
 
 ### Design
-Displays the bar scale onto a sub-menu that appears when the user hovers the cursor over the course. It will contain a set number of grey bars that will be colored in to correspond to how popular it is among other students (ex. Popular classes will have all the boxes filled in with red, whereas less popular classes will only have a few green boxes); color will indicate how much room is left to join the course. The color of the sub-menu will correspond to which light/dark theme the user has selected.
 
-### QA 
-If the feature is working properly, a bar scale will be displayed onto the sub-menu of the course, identifying the correct popularity percentage of that class. If a problem occurs, an error message will be displayed, identifying the corresponding error (ex. Wrong percentage, no bar scale, etc.),  which will let our team know which aspect to work on.
+### QA
+
 
 # Feature 6
 
@@ -183,18 +180,18 @@ Prerequisites of classes
 
 ### Functionality
 
-	The user will be able to, upon clicking on the class, to see the required prerequisites or see it on the short description. There will also be an option after clicking the classes to be able to click on the prerequisite classes and see the description for the prerequisite. This process will continue until there are no prerequisites remaining. The class that comes after will also be mentioned and linked and if the class is part of a pathway, the pathway will be mentioned as well.
+The user will be able to, upon clicking on the class, to see the required prerequisites or see it on the short description. There will also be an option after clicking the classes to be able to click on the prerequisite classes and see the description for the prerequisite. This process will continue until there are no prerequisites remaining. The class that comes after will also be mentioned and linked and if the class is part of a pathway, the pathway will be mentioned as well.
 	Another option will include recommended or related classes. These classes are not required, for example principles of engineering with computere science, but are reccommended for specific career paths or further understanding. These classes will also be linkable and one can navigate to find these classes if they are interested to do so.
 
 ### Design
 
-	The prerequisites and other classes mentioned will all be underlined and in a cobalt blue, or yellow when in dark mode. Colors are still up for discussion for the designers of the app, however. Hovering over the prerequisites will show the link the class link will lead to in the alt text. The font will not change, however, for consistency reasons, as well will the size of the font. 
+The prerequisites and other classes mentioned will all be underlined and in a cobalt blue, or yellow when in dark mode. Colors are still up for discussion for the designers of the app, however. Hovering over the prerequisites will show the link the class link will lead to in the alt text. The font will not change, however, for consistency reasons, as well will the size of the font. 
 	The pages the link will lead to will just be the class descriptions on the side. When asking for a full list, the list will replace the "classes list" on the left. The background color will stay the same as well as the font and text colors in the rectangle.
 
 ### QA
 
-The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out, 
-
+The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out of said tab. Other issues can include lag, where it doesn't pull up the tabs that show prerequisite classes, this would be a major problem because it means that it is essentially show nothing, and the user cannot properly interact with the code. 
+	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
 # Feature 17
 
 Auto make scehdule (WITH OPTMOIZATION) or randomizer
