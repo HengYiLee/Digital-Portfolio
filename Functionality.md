@@ -165,7 +165,7 @@ Change background colors (light/dark mode)
 ### Functionality
 
 ### Design
-For light mode: the background will be white while the text will be black to contrast for readability purposes. The opposite will happen for dark mode, the design inverted to work better in dark places and cause lesss eye strain. The colors of white and black will not be completely black as that causes undue strain on the eye, but varying shades of gray. There will be a moon in the top left corner while in light mode that will switch between the modes and transform in to a sun when in dark mode. The schedule to the side will not change significantly but the lists on the left will as there will be the most text on there. The pop-up quiz mentioned before will also change background and text colors as the modes shift. Readability will be our priority.
+For light mode: the background will be white while the text will be black to contrast for readability purposes. The opposite will happen for dark mode, the design inverted to work better in dark places and cause lesss eye strain. The colors of white and black will not be completely black as that causes undue strain on the eye, but varying shades of gray. There will be a moon in the top left corner while in light mode that will switch between the modes and transform in to a sun when in dark mode. The schedule to the side will not change significantly but the lists on the left will as there will be the most text on there. The pop-up quiz mentioned before will also change background and text colors as the modes shift. Readability will be our top priority.
 	
 The change in backgrounds offered by the color swatches will automatically change the text to a contrasting color that is visually pleasing. Colors that are not the background or the text will be changed to match in varying shades of the original color.
 
@@ -183,11 +183,14 @@ Prerequisites of classes
 
 # Feature 17
 
-Auto make scehdule (WITH OPTMOIZATION) or randomizer
+Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+
 ### Design
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+
 
 ### QA
 
