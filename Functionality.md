@@ -146,10 +146,15 @@ Ability to save schedules
 
 ### Functionality
 
+Button that allows schedules to be saved to your name so that when you log back into the application the schedule that you saved will not disappear.
+
 ### Design
+
+A button that is placed on the application that is blue and displays the word “SAVE” which shows that you haven’t saved your schedule yet. Once you press the button, the button should turn grey and should then display the word “SAVED” to prove that you have saved your schedule. 
 
 ### QA
 
+The schedule does not corrupt which allows the schedule to not be saved. This allows the functionality of this feature to be disabled and for problems to arise in the feature.
 
 # Feature 13
 
@@ -175,7 +180,7 @@ Show Transportation Schedule
 
 # Feature 15
 
-Change background colors (light/DARK VADER mode) 
+Change background colors (light/dark mode) 
 
 ### Functionality
 
@@ -183,6 +188,9 @@ Baiscally within your setting options you should be able to choose the backgroun
 	For the secondary colors like the text, and other buttons on the app, it will automatically set as a contrast color in order to maxamize the ease of use. There also might be restrictions on which colors you are able to choose. For example, neon colors like a extremley bright yellow might be harmful for the vision of these viewers and therefore be banned. This will be used to personalize each users app, and make it more user interactive.  
 	
 ### Design
+For light mode: the background will be white while the text will be black to contrast for readability purposes. The opposite will happen for dark mode, the design inverted to work better in dark places and cause lesss eye strain. The colors of white and black will not be completely black as that causes undue strain on the eye, but varying shades of gray. There will be a moon in the top left corner while in light mode that will switch between the modes and transform in to a sun when in dark mode. The schedule to the side will not change significantly but the lists on the left will as there will be the most text on there. The pop-up quiz mentioned before will also change background and text colors as the modes shift. Readability will be our top priority.
+	
+The change in backgrounds offered by the color swatches will automatically change the text to a contrasting color that is visually pleasing. Colors that are not the background or the text will be changed to match in varying shades of the original color.
 
 ### QA
 	
@@ -207,13 +215,21 @@ The prerequisites and other classes mentioned will all be underlined and in a co
 
 The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out of said tab. Other issues can include lag, where it doesn't pull up the tabs that show prerequisite classes, this would be a major problem because it means that it is essentially show nothing, and the user cannot properly interact with the code. 
 	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
+
 # Feature 17
 
-Auto make scehdule (WITH OPTMOIZATION) or randomizer
+Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+After one selects classes that they will be taking next year, they will have the option to ramdomize a schedule to give them possible ideas for next year. These selections will be completely random except for the fact that the classes that have conflicts or must be for certain time slots will be locked. One will also have the option of "locking" classes so to keep them in that specific period while the randomizer randomizes the rest of the schedule. The auto schedule will shuffle with every click of a button and will give the student an idea of way their schedule for next year can be organized. There would also be an option of greying out zero period in case the student is not keen on an early start to their morning. 
+
+	The optimization feature will consider all the classes that have required periods or double blocked classes while shuffing the schedule. Every time the student locks a class into place, that period and class will not be considered again. The student will also have the option to consider alternate schedules that include their althernate classes. The alternate schedule options will operate on a filter-like system where the student must check the alternates they will be considering to be shuffled in and what it will replace. The option to save the current schedule when it is randomized will still be there as it is a filled out schedule.
+
 ### Design
+
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+	The greyed out zero period will be "faded" compared to the others. The button color will be in line with any color palette, dicussed in feature 15, to the descretion of the design team. The font will stay consistent, as always, as will the text size and type. The option to "filter" through the classes being randomized will operate through a checklist-like list where the classes not being used in the schedule will be greyed out or simple unchecked. The selected classes, however, will have a check through the box next to them. The check box will be white or stroke, and the check/x -- depending on how the checklist is formatted -- will either be green and red, or simply all black or all white.
 
 ### QA
 
@@ -232,14 +248,17 @@ Bug filing system
 Feedback form
 
 ### Functionality
+At the end of their session, the user will be given the option to answer a short feedback form, covering their experience with the application. It will consist of 3-5 questions asking them about how they felt about the app, how they felt using it, and what changes they would make to optimize their experience. If being compared to other scheduling applications, a 5-star rating system can be added as well.
 
 ### Design
+At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.Alternatively, we could have a mini-tab be inserted within the website so that it does not make it inconvenient for the user.
 
 ### QA
+In order to assure the quality of this feature, it will have to consistently lead the user to the desired pop-up or tab to complete the short survey. If the pop-up/mini-tab option does not function properly, attaching a hyperlink to the “Feedback” button would be the easiest option to open the survey. Also, the feedback survey could ask the user for which functionality they prefer most, which can be taken into consideration for the next changes that would be made to the application.
 
 # Feature 20
 
-Gives you 50 eagle engagement points
+Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
