@@ -128,6 +128,8 @@ Each class should be assigned a value which allows the app to recognise whether 
 
 ### Design
 
+Next to each listing of classes, either a CTC, STEAM or AHS logo should be visible, as well as for lunches. In any pop-ups, a logo should be present. When hovered over, a hint should be shown detailing the building the class is at. In pop-ups such as a course summary, the background color may be changed to show location, for example red for AHS, blue for CTC and green for the STEAM center. This saturation, hue and brightness of this color should be adjusted based on whether light or dark mode is enabled.
+
 ### QA
 
 
