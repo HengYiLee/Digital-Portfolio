@@ -152,7 +152,7 @@ A button that is placed on the application that is blue and displays the word â€
 
 ### QA
 
-The schedule does not corrupt which allows the schedule to not be saved.
+The schedule does not corrupt which allows the schedule to not be saved. This allows the functionality of this feature to be disabled and for problems to arise in the feature.
 
 # Feature 13
 
