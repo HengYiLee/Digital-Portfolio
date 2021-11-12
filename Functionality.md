@@ -233,9 +233,10 @@ Feedback form
 At the end of their session, the user will be given the option to answer a short feedback form, covering their experience with the application. It will consist of 3-5 questions asking them about how they felt about the app, how they felt using it, and what changes they would make to optimize their experience. If being compared to other scheduling applications, a 5-star rating system can be added as well.
 
 ### Design
-At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.
+At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.Alternatively, we could have a mini-tab be inserted within the website so that it does not make it inconvenient for the user.
 
 ### QA
+In order to assure the quality of this feature, it will have to consistently lead the user to the desired pop-up or tab to complete the short survey. If the pop-up/mini-tab option does not function properly, attaching a hyperlink to the “Feedback” button would be the easiest option to open the survey.
 
 # Feature 20
 
