@@ -237,9 +237,17 @@ Bug filing system
 
 ### Functionality
 
+If a user spots a bug while using the application, they can shake their device in order to file it and provide feedback. Shaking their device will take them to a Google form where they can file bugs. This method of bug-filing is already used by many other applications, so it is logical to implement it into ours.
+
 ### Design
 
+When the user shakes their device, a message will pop-up on their device, asking them if they have found a bug and need to file it. If the user answers “Yes”, then they will be taken to the Google form having a section where they will have three pieces of information they can provide; the type of bug, specifics about the bug, and screenshots of the bug. 
+
+
 ### QA
+
+We need to make sure that our app can detect motion in order to identify that the user has shook their device and that everyone can access the Google form. If the Google form somehow doesn not work, we could possibly use Github issues, the only problem being that people who want to file bugs will need a Github account and that many people may not know how to use the issues system.
+
 
 # Feature 19
 
