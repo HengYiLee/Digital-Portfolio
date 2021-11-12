@@ -79,8 +79,10 @@ When classes are picked, there will be an option which is titled "More Informati
 Warns about incapability to schedule classes together
 
 ### Functionality
+When classes are picked, there will be a process to check if some classes interfere with others due to issues such as transportation or timing of the classes. For example, if the chosen class is Computer Science II, the process will check whether or not the previous and class after would interfere with the time of the chosen class. 
 
 ### Design
+When classes are picked, there will be a notification which will be titled "Error" which is highlighted in red. This notification will contain the conflicting classes and possible alterations to the schedule which would allow for the same classes to be chosen, but with a different time period so that all the classes are able to fit in the schedule.
 
 ### QA
 
