@@ -92,9 +92,11 @@ When classes are picked, there will be a notification which will be titled "Erro
 Lunch's need to be shown (with the location)
 
 ### Functionality
+When classes are picked, there will be a letter on the class chosen which is a letter of either "A", "B", "C", or "D". These letters will symbolize the lunch period for that class, and will be done for A-Days and B-Days due to different classes being scheduled on those days. The map of the school will also be shown with the location of the cafeteria being highlighted in red along with the classroom during that period being highlighted with the most efficient path being drawn by a dotted line in between the two locations.
 
 ### Design
-
+When classes are picked, there will be an option which is titled "More Information" which has general information. In this tab, there would be text which would say the lunch you would have ("A", "B", "C", "D") and on which day that lunch period would be (A-Day, B-Day). For example, if I have IB History of the Americas during third period, then in the "More Information" tab I could find the lunch which that day has which is an A-Day.
+ 
 ### QA
 
 
