@@ -97,26 +97,30 @@ Lunch's need to be shown (with the location)
 Course summary
 
 ### Functionality
+This can be access when a student click's on the class and would be given a course description about the learning the students will be engaged in. In this summary in can include types of learning students will participate in such as labs, projects, group collaborations etc. It would also have specified topics in the course itself like it the class were to be United States History main information about the subject could be American Independence and the Civil War. It should list the difficulty of the class so that students can be assured that the teaching in the subject matches the student's comprehension and work ethic. Lastly the summary will contain the bar scale of popularity, tells the percent of students that are interested in taking the class, so that learners can find themselves with their friends to better improve overall learning and cooperation efforts among them. Comprising of elements above, course summary will provide generalized information that would be sufficient enough to give students a basic understanding of the course to help them in deciding on the classes they would take.
 
 ### Design
+	The course summary would appear once the student clicks on any particular class as they would be taken to the course description housing all sorts of information. When clicking on the button a new page will open up that consists of either black-or-white background with a contrasting color of text for the information in the summary. The new page will be in the middle of the screen easy for the user to see. Information should be that of the teacher's input on the page that each teacher will be forced to create.
 
 ### QA
-
+In order to check whether this feature meets the requirements we would make sure we debug the potential problems that may occur. This could be inaccess to the summary when clicking on the course, failing to exit the course description where the summary is, information of the summary is invalid. These challenges may cause the user to struggle but can be reported through the customer service system in our app. Also students can probably refresh the page and try another attempt in viewing the course summary. 
 
 # Feature 10
 
-Rate my teacher system
+Rate my teacher system and could comment about the teacher
 
 ### Functionality
+ This can be from data from students from the previous year who would like to provide data or express their opinions on the teacher they had. This could be very important as it allows for students who feel strongly about the teachers, whether good or bad, but more importantly gives insight to future learners who are interested in this type of class in understanding the professor. A more in-depth rating from the seniors would be the ability for students to leave comments on the teacher's describing experiences in their class. This furthermore could give significant data for faculty to be able to distinguish teachers that need guidance or those who deserve praise. Many students in our high school always want to know whether their future teachers are good or bad and based off this fact it could directly influence a students work ethic in the class being a more demanding teacher wants more work while a laid-back one would make the students less studious. On top of this these kids could view the comments to picture in their head how the class will flow and this could match their wants or needs.
 
 ### Design
+To find the teacher rate/comment system it will be located in one of the menu's where it will have a database of all the teacher's name and class they would have. If you want to learn about the rating then click on the teacher and it would perform as a drop-down menu and show in bolded characters, with the text contrasting the background(black-or-white), illustrate the average rating a person receives. Here it would also below this give the feedback on both extremes of loving or hating the teachers, that is if the information is present, so that students can get fellow peer feedback. Probably we would make this look better by adding the image of the teacher. To be able to leave a comment and rate, there will be a button on this drop-down allocating access to give a rating out of a five  point scale with the optional feature of commenting. 
 
 ### QA
-
-
+ In order to ensure this feature works properly we would thoroughly check the correct information for each page. Some type of problems that may occur would be false information of the teacher, failed to implement individual comments or rating, drop-down menu fails to operate, rating values placed in inversely (if I rate my teacher a five it puts it as a one). Again we would implement customer service in order to immediately solve these problems here and we would also check our database to properly match up the teacher information between one another. I big problem would be being locked on the page where the student provides their ideals since they may not be able to leave nor their data would be sent to the server.
+ 
 # Feature 11
 
-Popularity of classes
+
 
 ### Functionality
 
