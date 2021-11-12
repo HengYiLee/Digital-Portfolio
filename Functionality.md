@@ -87,6 +87,7 @@ When classes are picked, there will be a process to check if some classes interf
 When classes are picked, there will be a notification which will be titled "Error" which is highlighted in red. This notification will contain the conflicting classes and possible alterations to the schedule which would allow for the same classes to be chosen, but with a different time period so that all the classes are able to fit in the schedule.
 
 ### QA
+To make sure the quality of the incapability to schedule classes is good, we can get user inputs about the clarity of our design in getting the information that they are unable to schedule classes together. Also, when it comes to displaying incapability of scheduling classes, we need to make sure that the classes shown actually correspond for the classes which conflict with each other. For example: If a user were to have AP Chemistry and AP physics conflict with each other, the notification should show "AP Chemistry and AP Physics conflict with each other", other classes such as AP Biology, or Computer Science II aren't in that notification. This clarity is important so that users dont get confused and end up changing their classes completely. Regular user testing would be helpful for this feature.
 
 
 # Feature 8
@@ -100,7 +101,7 @@ When classes are picked, there will be a letter on the class chosen which is a l
 When classes are picked, there will be an option which is titled "More Information" which has general information. In this tab, there would be text which would say the lunch you would have ("A", "B", "C", "D") and on which day that lunch period would be (A-Day, B-Day). For example, if I have IB History of the Americas during third period, then in the "More Information" tab I could find the lunch which that day has which is an A-Day.
  
 ### QA
-
+To make sure the quality of displaying what lunch each class has is good, we can get user inputs about the clarity of our design in getting the information of the lunch cooresponding with the class. Also, when it comes to displaying which lunch a class has, we need to make sure that the lunches shown actually correspond with the actual lunches. For example: If a user were to have AP Chemistry and "B" lunch, the notification should show "A-Day Lunch is "B" lunch", other classes or lunches such as AP Biology, or "D" lucnh aren't in that notification. This clarity is important so that users dont get confused and end up going to lunch at the wrong time. Regular user testing would be helpful for this feature.
 
 # Feature 9
 
