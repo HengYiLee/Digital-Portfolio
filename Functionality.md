@@ -173,7 +173,7 @@ Show Transportation Schedule
 
 # Feature 15
 
-Change background colors (light/DARK VADER mode) 
+Change background colors (light/dark mode) 
 
 ### Functionality
 
@@ -181,6 +181,9 @@ Baiscally within your setting options you should be able to choose the backgroun
 	For the secondary colors like the text, and other buttons on the app, it will automatically set as a contrast color in order to maxamize the ease of use. There also might be restrictions on which colors you are able to choose. For example, neon colors like a extremley bright yellow might be harmful for the vision of these viewers and therefore be banned. This will be used to personalize each users app, and make it more user interactive.  
 	
 ### Design
+For light mode: the background will be white while the text will be black to contrast for readability purposes. The opposite will happen for dark mode, the design inverted to work better in dark places and cause lesss eye strain. The colors of white and black will not be completely black as that causes undue strain on the eye, but varying shades of gray. There will be a moon in the top left corner while in light mode that will switch between the modes and transform in to a sun when in dark mode. The schedule to the side will not change significantly but the lists on the left will as there will be the most text on there. The pop-up quiz mentioned before will also change background and text colors as the modes shift. Readability will be our top priority.
+	
+The change in backgrounds offered by the color swatches will automatically change the text to a contrasting color that is visually pleasing. Colors that are not the background or the text will be changed to match in varying shades of the original color.
 
 ### QA
 	
@@ -207,11 +210,14 @@ The potential problems with implementing this feature is getting stuck on the ta
 	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
 # Feature 17
 
-Auto make scehdule (WITH OPTMOIZATION) or randomizer
+Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+
 ### Design
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+
 
 ### QA
 
@@ -240,7 +246,7 @@ In order to assure the quality of this feature, it will have to consistently lea
 
 # Feature 20
 
-Gives you 50 eagle engagement points
+Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
