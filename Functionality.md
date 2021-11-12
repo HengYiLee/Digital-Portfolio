@@ -144,10 +144,15 @@ Ability to save schedules
 
 ### Functionality
 
+Button that allows schedules to be saved to your name so that when you log back into the application the schedule that you saved will not disappear.
+
 ### Design
+
+A button that is placed on the application that is blue and displays the word “SAVE” which shows that you haven’t saved your schedule yet. Once you press the button, the button should turn grey and should then display the word “SAVED” to prove that you have saved your schedule. 
 
 ### QA
 
+The schedule does not corrupt which allows the schedule to not be saved. This allows the functionality of this feature to be disabled and for problems to arise in the feature.
 
 # Feature 13
 
@@ -241,14 +246,17 @@ Bug filing system
 Feedback form
 
 ### Functionality
+At the end of their session, the user will be given the option to answer a short feedback form, covering their experience with the application. It will consist of 3-5 questions asking them about how they felt about the app, how they felt using it, and what changes they would make to optimize their experience. If being compared to other scheduling applications, a 5-star rating system can be added as well.
 
 ### Design
+At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.Alternatively, we could have a mini-tab be inserted within the website so that it does not make it inconvenient for the user.
 
 ### QA
+In order to assure the quality of this feature, it will have to consistently lead the user to the desired pop-up or tab to complete the short survey. If the pop-up/mini-tab option does not function properly, attaching a hyperlink to the “Feedback” button would be the easiest option to open the survey. Also, the feedback survey could ask the user for which functionality they prefer most, which can be taken into consideration for the next changes that would be made to the application.
 
 # Feature 20
 
-Gives you 50 eagle engagement points
+Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
