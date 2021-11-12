@@ -132,6 +132,7 @@ Next to each listing of classes, either a CTC, STEAM or AHS logo should be visib
 
 ### QA
 
+One potential bug is missing a class or assigning the wrong value to the class, which could reuslt in an error with a call for the value resulting in a nil value or the wrong color being displayed respectively. This could be fixed by checking the value agianst the room number provided from the map feature. However, while this may work for some classes, this likely wouldn't work for many, so testing preceding implementation is important as well as double-checking.  
 
 # Feature 12
 
