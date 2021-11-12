@@ -1,11 +1,12 @@
 # Feature 1
+Map which shows the location of selected classes
 
 ### Functionality
 
-Map of each campus is shown, displaying the location of each class that is selected.
+For each class that gets selected, the map will be updated with the room number of the class, which then puts the locations on the map. As classes are selected, the map will create paths between the classes, which can be helpful for when school actually starts. These paths will change as the ammount OR order of the classes change. Also, a piece of text which has been modified to show a chronological list of the halls of the classes will be made. For example, suppose the locations of the classes shown are as follows: F123, G213, G321, A543. Then, a piece of text along the lines of "1st: F hall, 2nd: G hall, 3rd: G hall, 4th: A hall" will be made.
 
 ### Design
-Tab titled "Map", which has a location of all the room numbers + classes taught in those rooms. After selecting classes, it will show the room number of said class, and the location of the room relative to the building. Classes which are chosen are highlighted. Also draws a path between the classes based on the order of the schedule.
+Tab titled "Map", which has a location of all the room numbers + classes taught in those rooms. After selecting classes, it will show the room number of said class, and the location of the room relative to the building. Classes which are chosen are highlighted. Also draws a path between the classes based on the order of the schedule. There will be a key near the map, which shows a correlation between class periods and a color. For example, "1st - 2nd period: Red", and a line showing those the path between those 2 classes will be made in that color. This will be in a sperate tabe than the area where classes are actually selected, so that the screen doesnt look cluttered. There will also be an option to expand or shrink the map.
 
 ### QA
 
@@ -56,6 +57,7 @@ The popularity or percentage of students scheduled in a class should be displaye
 
 ### Design
 
+
 ### QA
 
 
@@ -64,8 +66,10 @@ The popularity or percentage of students scheduled in a class should be displaye
 Shows GPA scale of the class
 
 ### Functionality
+Whan classes are picked, there will be an option to view details of individual classes, and all the classes picked. it will recieve data of the GPA scaling of said class or classes. For example: If the chosen class is Computer Science II, it will recieve data to show that the class has a gpa on a 4.5 scale. After picking multiple classes, It will show the maximum GPA which is possible with those classes. There will also be options to change the class level, so it is more convinient for the user. If all classes required are not picked, there will be a warning saying that that this number may change as classes change or get added.
 
 ### Design
+When classes are picked, there will be an option which is titled "More Information" which has general information. In this tab, there will be a long bar which ranged from 0.0 to 5.0, which is the range from 0 to the maximum GPA's for the classes. If it is on the option which shows gpa for a specific class, it will highlight from 0 - the maximum GPA for that class. For example: Suppose you are viewing the GPA scale of a class worth 4.5. Everything below the 4.5 mark would be one color, and everything above the 4.5 mark would be grey. If the option to show the maximum gpa possible is selected, it will average the maximum GPA's of all of the chosen classes, and everything below that point would be hightlighted a certain color and everything above that point would be grey.
 
 ### QA
 
@@ -75,8 +79,10 @@ Shows GPA scale of the class
 Warns about incapability to schedule classes together
 
 ### Functionality
+When classes are picked, there will be a process to check if some classes interfere with others due to issues such as transportation or timing of the classes. For example, if the chosen class is Computer Science II, the process will check whether or not the previous and class after would interfere with the time of the chosen class. 
 
 ### Design
+When classes are picked, there will be a notification which will be titled "Error" which is highlighted in red. This notification will contain the conflicting classes and possible alterations to the schedule which would allow for the same classes to be chosen, but with a different time period so that all the classes are able to fit in the schedule.
 
 ### QA
 
@@ -86,9 +92,11 @@ Warns about incapability to schedule classes together
 Lunch's need to be shown (with the location)
 
 ### Functionality
+When classes are picked, there will be a letter on the class chosen which is a letter of either "A", "B", "C", or "D". These letters will symbolize the lunch period for that class, and will be done for A-Days and B-Days due to different classes being scheduled on those days. The map of the school will also be shown with the location of the cafeteria being highlighted in red along with the classroom during that period being highlighted with the most efficient path being drawn by a dotted line in between the two locations.
 
 ### Design
-
+When classes are picked, there will be an option which is titled "More Information" which has general information. In this tab, there would be text which would say the lunch you would have ("A", "B", "C", "D") and on which day that lunch period would be (A-Day, B-Day). For example, if I have IB History of the Americas during third period, then in the "More Information" tab I could find the lunch which that day has which is an A-Day.
+ 
 ### QA
 
 
@@ -120,14 +128,19 @@ To find the teacher rate/comment system it will be located in one of the menu's 
  
 # Feature 11
 
-
+Differentiate between STEAM, AHS and CTC courses
 
 ### Functionality
 
+Each class should be assigned a value which allows the app to recognise whether the class is attended at the STEAM center, CTC or at AHS. Based on these values, classes preceding and following lunch should be scanned for these values and based on this, it should be determined what location lunch is at. This value should also be used in the “map” tab to allow for toggling views from each location and sort by building. This value should also be used to toggle backgrounds of pop-ups based on location, and should use the light/dark mode toggle to modify the color of this background.
+
 ### Design
+
+Next to each listing of classes, either a CTC, STEAM or AHS logo should be visible, as well as for lunches. In any pop-ups, a logo should be present. When hovered over, a hint should be shown detailing the building the class is at. In pop-ups such as a course summary, the background color may be changed to show location, for example red for AHS, blue for CTC and green for the STEAM center. This saturation, hue and brightness of this color should be adjusted based on whether light or dark mode is enabled.
 
 ### QA
 
+One potential bug is missing a class or assigning the wrong value to the class, which could reuslt in an error with a call for the value resulting in a nil value or the wrong color being displayed respectively. This could be fixed by checking the value agianst the room number provided from the map feature. However, while this may work for some classes, this likely wouldn't work for many, so testing preceding implementation is important as well as double-checking.  
 
 # Feature 12
 
@@ -135,10 +148,15 @@ Ability to save schedules
 
 ### Functionality
 
+Button that allows schedules to be saved to your name so that when you log back into the application the schedule that you saved will not disappear.
+
 ### Design
+
+A button that is placed on the application that is blue and displays the word “SAVE” which shows that you haven’t saved your schedule yet. Once you press the button, the button should turn grey and should then display the word “SAVED” to prove that you have saved your schedule. 
 
 ### QA
 
+The schedule does not corrupt which allows the schedule to not be saved. This allows the functionality of this feature to be disabled and for problems to arise in the feature.
 
 # Feature 13
 
@@ -164,13 +182,22 @@ Show Transportation Schedule
 
 # Feature 15
 
-Change background colors (light/DARK VADER mode) 
+Change background colors (light/dark mode) 
 
 ### Functionality
 
+Baiscally within your setting options you should be able to choose the background colors of the app to what is most aesthetically pleasing to you. You have your two baisc options Light mode and Dark mode, as well as a advadvanced option of a color wheel to make a background color of your preference. If you want to include a color code, there will be an option for that as well in whihc you can enter a color code into the search box option and have that as your background color. Once you've chosen your select color, there will be a save button which will save your background color for future revisits of the app. 
+	For the secondary colors like the text, and other buttons on the app, it will automatically set as a contrast color in order to maxamize the ease of use. There also might be restrictions on which colors you are able to choose. For example, neon colors like a extremley bright yellow might be harmful for the vision of these viewers and therefore be banned. This will be used to personalize each users app, and make it more user interactive.  
+	
 ### Design
+For light mode: the background will be white while the text will be black to contrast for readability purposes. The opposite will happen for dark mode, the design inverted to work better in dark places and cause lesss eye strain. The colors of white and black will not be completely black as that causes undue strain on the eye, but varying shades of gray. There will be a moon in the top left corner while in light mode that will switch between the modes and transform in to a sun when in dark mode. The schedule to the side will not change significantly but the lists on the left will as there will be the most text on there. The pop-up quiz mentioned before will also change background and text colors as the modes shift. Readability will be our top priority.
+	
+The change in backgrounds offered by the color swatches will automatically change the text to a contrasting color that is visually pleasing. Colors that are not the background or the text will be changed to match in varying shades of the original color.
 
 ### QA
+	
+Some errors that might be included in this particular feature is colors not saving, certain colors give eyestrain and were not banned, colors will not change from default setting, contrast color not good for the current background color in use. Other issues might be not being able to get out of the settings window, and colors not matching with its description. Another issue might be colors do ot fill the entire page, or possibly colors used in a different background besides the main background available.
+	Of course the best way to find these issues, will be through intenst testing, as well as some research on which colors might cause eyestrain, and problems for viewing. Another way to fix these issues is through the reporting through bug issues. Mostly these issues will probably be through HTML, and website coding. 
 
 # Feature 16
 
@@ -178,17 +205,33 @@ Prerequisites of classes
 
 ### Functionality
 
+The user will be able to, upon clicking on the class, to see the required prerequisites or see it on the short description. There will also be an option after clicking the classes to be able to click on the prerequisite classes and see the description for the prerequisite. This process will continue until there are no prerequisites remaining. The class that comes after will also be mentioned and linked and if the class is part of a pathway, the pathway will be mentioned as well.
+	Another option will include recommended or related classes. These classes are not required, for example principles of engineering with computere science, but are reccommended for specific career paths or further understanding. These classes will also be linkable and one can navigate to find these classes if they are interested to do so.
+
 ### Design
+
+The prerequisites and other classes mentioned will all be underlined and in a cobalt blue, or yellow when in dark mode. Colors are still up for discussion for the designers of the app, however. Hovering over the prerequisites will show the link the class link will lead to in the alt text. The font will not change, however, for consistency reasons, as well will the size of the font. 
+	The pages the link will lead to will just be the class descriptions on the side. When asking for a full list, the list will replace the "classes list" on the left. The background color will stay the same as well as the font and text colors in the rectangle.
 
 ### QA
 
+The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out of said tab. Other issues can include lag, where it doesn't pull up the tabs that show prerequisite classes, this would be a major problem because it means that it is essentially show nothing, and the user cannot properly interact with the code. 
+	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
+
 # Feature 17
 
-Auto make scehdule (WITH OPTMOIZATION) or randomizer
+Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+After one selects classes that they will be taking next year, they will have the option to ramdomize a schedule to give them possible ideas for next year. These selections will be completely random except for the fact that the classes that have conflicts or must be for certain time slots will be locked. One will also have the option of "locking" classes so to keep them in that specific period while the randomizer randomizes the rest of the schedule. The auto schedule will shuffle with every click of a button and will give the student an idea of way their schedule for next year can be organized. There would also be an option of greying out zero period in case the student is not keen on an early start to their morning. 
+
+	The optimization feature will consider all the classes that have required periods or double blocked classes while shuffing the schedule. Every time the student locks a class into place, that period and class will not be considered again. The student will also have the option to consider alternate schedules that include their althernate classes. The alternate schedule options will operate on a filter-like system where the student must check the alternates they will be considering to be shuffled in and what it will replace. The option to save the current schedule when it is randomized will still be there as it is a filled out schedule.
+
 ### Design
+
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+	The greyed out zero period will be "faded" compared to the others. The button color will be in line with any color palette, dicussed in feature 15, to the descretion of the design team. The font will stay consistent, as always, as will the text size and type. The option to "filter" through the classes being randomized will operate through a checklist-like list where the classes not being used in the schedule will be greyed out or simple unchecked. The selected classes, however, will have a check through the box next to them. The check box will be white or stroke, and the check/x -- depending on how the checklist is formatted -- will either be green and red, or simply all black or all white.
 
 ### QA
 
@@ -207,14 +250,17 @@ Bug filing system
 Feedback form
 
 ### Functionality
+At the end of their session, the user will be given the option to answer a short feedback form, covering their experience with the application. It will consist of 3-5 questions asking them about how they felt about the app, how they felt using it, and what changes they would make to optimize their experience. If being compared to other scheduling applications, a 5-star rating system can be added as well.
 
 ### Design
+At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.Alternatively, we could have a mini-tab be inserted within the website so that it does not make it inconvenient for the user.
 
 ### QA
+In order to assure the quality of this feature, it will have to consistently lead the user to the desired pop-up or tab to complete the short survey. If the pop-up/mini-tab option does not function properly, attaching a hyperlink to the “Feedback” button would be the easiest option to open the survey. Also, the feedback survey could ask the user for which functionality they prefer most, which can be taken into consideration for the next changes that would be made to the application.
 
 # Feature 20
 
-Gives you 50 eagle engagement points
+Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
