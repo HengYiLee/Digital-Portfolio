@@ -248,7 +248,7 @@ Feedback form
 
 # Feature 20
 
-Gives you 50 eagle engagement points
+Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
