@@ -171,10 +171,15 @@ Show Transportation Schedule
 
 ### Functionality
 
+There is a transportation schedule that will be shown when the students schedule their courses. This transportation schedule will include when the shuttle bus comes after each period for the STEAM center, Collin Campus Technical Center, and Allen High School. This will allow for the students to understand when the shuttles leave each location and what arrangements they have to make in order to get to these shuttles on time.
+
 ### Design
+
+A basic transportation schedule will be displayed on the side of the display which allows students to see it clearly. The schedule will show each period and the times of each period and when the shuttle will leave from the Allen High School to the STEAM center and Collin Campus Technical center. It will also show the opposite when buses will leave from the STEAM center and the Collin Technical Campus to the Allen High School.
 
 ### QA
 
+The QA manager has to make sure that the actual transportation schedule is viewable on the application. He also has to make sure that the schedule is actually up to date because they sometimes change according to people who have classes at certain times.
 
 # Feature 15
 
