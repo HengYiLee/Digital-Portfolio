@@ -6,9 +6,10 @@ Map which shows the location of selected classes
 For each class that gets selected, the map will be updated with the room number of the class, which then puts the locations on the map. As classes are selected, the map will create paths between the classes, which can be helpful for when school actually starts. These paths will change as the ammount OR order of the classes change. Also, a piece of text which has been modified to show a chronological list of the halls of the classes will be made. For example, suppose the locations of the classes shown are as follows: F123, G213, G321, A543. Then, a piece of text along the lines of "1st: F hall, 2nd: G hall, 3rd: G hall, 4th: A hall" will be made.
 
 ### Design
-Tab titled "Map", which has a location of all the room numbers + classes taught in those rooms. After selecting classes, it will show the room number of said class, and the location of the room relative to the building. Classes which are chosen are highlighted. Also draws a path between the classes based on the order of the schedule. There will be a key near the map, which shows a correlation between class periods and a color. For example, "1st - 2nd period: Red", and a line showing those the path between those 2 classes will be made in that color. This will be in a sperate tabe than the area where classes are actually selected, so that the screen doesnt look cluttered. There will also be an option to expand or shrink the map.
+Tab titled "Map", which has a location of all the room numbers + classes taught in those rooms. After selecting classes, it will show the room number of said class, and the location of the room relative to the building. Classes which are chosen are highlighted. Also draws a path between the classes based on the order of the schedule. There will be a key near the map, which shows a correlation between class periods and a color. For example, "1st - 2nd period: Red", and a line showing those the path between those 2 classes will be made in that color. This will be in a sperate tab than the area where classes are actually selected, so that the screen doesnt look cluttered. There will also be an option to expand or shrink the map.
 
 ### QA
+In order to "QA" this, we can push this functionality by changing the order of our classes, adding and removing classes, verifying that the loction displayed on the map with the location in real life, and making sure that the order of halls displayed is correct. We can also get users to pre-test this feature buy inputting their possible classes and verifying that the path is correct. Other possible problems of this can be having it misplaced, inability to expand or decrease the size of the map, and unclearness of the ORDER of paths fromm 1st to 8th period. Also, classes at steam center might have to be a special case on this map, and privilage periods cannot have a definite "Location" to them.
 
 
 # Feature 2
@@ -72,6 +73,7 @@ Whan classes are picked, there will be an option to view details of individual c
 When classes are picked, there will be an option which is titled "More Information" which has general information. In this tab, there will be a long bar which ranged from 0.0 to 5.0, which is the range from 0 to the maximum GPA's for the classes. If it is on the option which shows gpa for a specific class, it will highlight from 0 - the maximum GPA for that class. For example: Suppose you are viewing the GPA scale of a class worth 4.5. Everything below the 4.5 mark would be one color, and everything above the 4.5 mark would be grey. If the option to show the maximum gpa possible is selected, it will average the maximum GPA's of all of the chosen classes, and everything below that point would be hightlighted a certain color and everything above that point would be grey.
 
 ### QA
+To make sure the quality of the GPA scale of the class is good, we can get user inputs of the clarity of our design in terms of getting the important informationa cross. Also, when it comes the the displaying of level change options, we need to make sure that the classes shown actually correspond for the class which was originally shown. For example: If a user were to pick AP Psyschology, the level change options should show "IB Psychology, Advanced Psychology, and On-Level Psychology, and not show other classes such as Advanced Bio, or Computer Science II. This clarity is important so that users dont get confused and end up changing their classes completely. Regular user testing would be helpful for this feature.
 
 
 # Feature 7
@@ -105,23 +107,27 @@ When classes are picked, there will be an option which is titled "More Informati
 Course summary
 
 ### Functionality
+This can be access when a student click's on the class and would be given a course description about the learning the students will be engaged in. In this summary in can include types of learning students will participate in such as labs, projects, group collaborations etc. It would also have specified topics in the course itself like it the class were to be United States History main information about the subject could be American Independence and the Civil War. It should list the difficulty of the class so that students can be assured that the teaching in the subject matches the student's comprehension and work ethic. Lastly the summary will contain the bar scale of popularity, tells the percent of students that are interested in taking the class, so that learners can find themselves with their friends to better improve overall learning and cooperation efforts among them. Comprising of elements above, course summary will provide generalized information that would be sufficient enough to give students a basic understanding of the course to help them in deciding on the classes they would take.
 
 ### Design
+	The course summary would appear once the student clicks on any particular class as they would be taken to the course description housing all sorts of information. When clicking on the button a new page will open up that consists of either black-or-white background with a contrasting color of text for the information in the summary. The new page will be in the middle of the screen easy for the user to see. Information should be that of the teacher's input on the page that each teacher will be forced to create.
 
 ### QA
-
+In order to check whether this feature meets the requirements we would make sure we debug the potential problems that may occur. This could be inaccess to the summary when clicking on the course, failing to exit the course description where the summary is, information of the summary is invalid. These challenges may cause the user to struggle but can be reported through the customer service system in our app. Also students can probably refresh the page and try another attempt in viewing the course summary. 
 
 # Feature 10
 
-Rate my teacher system
+Rate my teacher system and could comment about the teacher
 
 ### Functionality
+ This can be from data from students from the previous year who would like to provide data or express their opinions on the teacher they had. This could be very important as it allows for students who feel strongly about the teachers, whether good or bad, but more importantly gives insight to future learners who are interested in this type of class in understanding the professor. A more in-depth rating from the seniors would be the ability for students to leave comments on the teacher's describing experiences in their class. This furthermore could give significant data for faculty to be able to distinguish teachers that need guidance or those who deserve praise. Many students in our high school always want to know whether their future teachers are good or bad and based off this fact it could directly influence a students work ethic in the class being a more demanding teacher wants more work while a laid-back one would make the students less studious. On top of this these kids could view the comments to picture in their head how the class will flow and this could match their wants or needs.
 
 ### Design
+To find the teacher rate/comment system it will be located in one of the menu's where it will have a database of all the teacher's name and class they would have. If you want to learn about the rating then click on the teacher and it would perform as a drop-down menu and show in bolded characters, with the text contrasting the background(black-or-white), illustrate the average rating a person receives. Here it would also below this give the feedback on both extremes of loving or hating the teachers, that is if the information is present, so that students can get fellow peer feedback. Probably we would make this look better by adding the image of the teacher. To be able to leave a comment and rate, there will be a button on this drop-down allocating access to give a rating out of a five  point scale with the optional feature of commenting. 
 
 ### QA
-
-
+ In order to ensure this feature works properly we would thoroughly check the correct information for each page. Some type of problems that may occur would be false information of the teacher, failed to implement individual comments or rating, drop-down menu fails to operate, rating values placed in inversely (if I rate my teacher a five it puts it as a one). Again we would implement customer service in order to immediately solve these problems here and we would also check our database to properly match up the teacher information between one another. I big problem would be being locked on the page where the student provides their ideals since they may not be able to leave nor their data would be sent to the server.
+ 
 # Feature 11
 
 Differentiate between STEAM, AHS and CTC courses
@@ -218,18 +224,26 @@ The prerequisites and other classes mentioned will all be underlined and in a co
 
 The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out of said tab. Other issues can include lag, where it doesn't pull up the tabs that show prerequisite classes, this would be a major problem because it means that it is essentially show nothing, and the user cannot properly interact with the code. 
 	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
+
 # Feature 17
 
 Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+After one selects classes that they will be taking next year, they will have the option to ramdomize a schedule to give them possible ideas for next year. These selections will be completely random except for the fact that the classes that have conflicts or must be for certain time slots will be locked. One will also have the option of "locking" classes so to keep them in that specific period while the randomizer randomizes the rest of the schedule. The auto schedule will shuffle with every click of a button and will give the student an idea of way their schedule for next year can be organized. There would also be an option of greying out zero period in case the student is not keen on an early start to their morning. 
+
+The optimization feature will consider all the classes that have required periods or double blocked classes while shuffing the schedule. Every time the student locks a class into place, that period and class will not be considered again. The student will also have the option to consider alternate schedules that include their althernate classes. The alternate schedule options will operate on a filter-like system where the student must check the alternates they will be considering to be shuffled in and what it will replace. The option to save the current schedule when it is randomized will still be there as it is a filled out schedule.
 
 ### Design
-The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
 
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+	The greyed out zero period will be "faded" compared to the others. The button color will be in line with any color palette, dicussed in feature 15, to the descretion of the design team. The font will stay consistent, as always, as will the text size and type. The option to "filter" through the classes being randomized will operate through a checklist-like list where the classes not being used in the schedule will be greyed out or simple unchecked. The selected classes, however, will have a check through the box next to them. The check box will be white or stroke, and the check/x -- depending on how the checklist is formatted -- will either be green and red, or simply all black or all white.
 
 ### QA
+
+Several issues that can come from using these feature, is that it gives faulty schedules, for example: classes overlap with each other, the class isn't avaliable in the selcted slot it was put in, duplicates of classes in the schedule, puts an alternate class instead of the first choice class. Other problems can be these classes not loading in the schedule area, as well as the classes being different from the classes previously selected. Because there is an alterante schedule option as well as first choice class, there is a potential chance that th program might confuse the alternate schdeule with the first choices schedule. We have also wanted to implement the "locking" option for classes. This could cause errors in locking and not being able to unlock it, or on the other end attempting to lock it and it won't lock it. 
+	This can be noticed with bug filing, and extensive testing. Another way to fix these issues will probably be creating programs that check the schedules for a final time before we finally show the user their random schedule. This will probably be most interactive with the HTML, the apperance of the scheudle, and usage of the shell for coding the randomization of the code. THi means that the front and back end designers, as well as UX Designer would most likely be the most involved in this. 
 
 # Feature 18
 
@@ -237,19 +251,30 @@ Bug filing system
 
 ### Functionality
 
+If a user spots a bug while using the application, they can shake their device in order to file it and provide feedback. Shaking their device will take them to a Google form where they can file bugs. This method of bug-filing is already used by many other applications, so it is logical to implement it into ours.
+
 ### Design
 
+When the user shakes their device, a message will pop-up on their device, asking them if they have found a bug and need to file it. If the user answers “Yes”, then they will be taken to the Google form having a section where they will have three pieces of information they can provide; the type of bug, specifics about the bug, and screenshots of the bug. 
+
+
 ### QA
+
+We need to make sure that our app can detect motion in order to identify that the user has shook their device and that everyone can access the Google form. If the Google form somehow doesn not work, we could possibly use Github issues, the only problem being that people who want to file bugs will need a Github account and that many people may not know how to use the issues system.
+
 
 # Feature 19
 
 Feedback form
 
 ### Functionality
+At the end of their session, the user will be given the option to answer a short feedback form, covering their experience with the application. It will consist of 3-5 questions asking them about how they felt about the app, how they felt using it, and what changes they would make to optimize their experience. If being compared to other scheduling applications, a 5-star rating system can be added as well.
 
 ### Design
+At the end screen of the application, when the user has finished constructing their schedule, a feedback form button will be found near the bottom. This will open a pop-up or google forms tab that will allow the user to put in feedback for our team.Alternatively, we could have a mini-tab be inserted within the website so that it does not make it inconvenient for the user.
 
 ### QA
+In order to assure the quality of this feature, it will have to consistently lead the user to the desired pop-up or tab to complete the short survey. If the pop-up/mini-tab option does not function properly, attaching a hyperlink to the “Feedback” button would be the easiest option to open the survey. Also, the feedback survey could ask the user for which functionality they prefer most, which can be taken into consideration for the next changes that would be made to the application.
 
 # Feature 20
 
