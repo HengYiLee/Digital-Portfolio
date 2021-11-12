@@ -120,9 +120,11 @@ Rate my teacher system
 
 # Feature 11
 
-Popularity of classes
+Differentiate between STEAM, AHS and CTC courses
 
 ### Functionality
+
+Each class should be assigned a value which allows the app to recognise whether the class is attended at the STEAM center, CTC or at AHS. Based on these values, classes preceding and following lunch should be scanned for these values and based on this, it should be determined what location lunch is at. This value should also be used in the “map” tab to allow for toggling views from each location and sort by building. This value should also be used to toggle backgrounds of pop-ups based on location, and should use the light/dark mode toggle to modify the color of this background.
 
 ### Design
 
