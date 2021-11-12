@@ -208,16 +208,21 @@ The prerequisites and other classes mentioned will all be underlined and in a co
 
 The potential problems with implementing this feature is getting stuck on the tabs, and being unable to get out of said tab. Other issues can include lag, where it doesn't pull up the tabs that show prerequisite classes, this would be a major problem because it means that it is essentially show nothing, and the user cannot properly interact with the code. 
 	Other issues is that class descriptions may not show up, or the tabs that do pop up may not be in the desired place they were originally intended for on the screen. The best way to prevent this is extensive testing, as well as large understanding and comprehension of HTML, because this would most likely be a feature for the website. 
+
 # Feature 17
 
 Auto make schedule (WITH OPTMOIZATION) or randomizer
 
 ### Functionality
 
+After one selects classes that they will be taking next year, they will have the option to ramdomize a schedule to give them possible ideas for next year. These selections will be completely random except for the fact that the classes that have conflicts or must be for certain time slots will be locked. One will also have the option of "locking" classes so to keep them in that specific period while the randomizer randomizes the rest of the schedule. The auto schedule will shuffle with every click of a button and will give the student an idea of way their schedule for next year can be organized. There would also be an option of greying out zero period in case the student is not keen on an early start to their morning. 
+
+	The optimization feature will consider all the classes that have required periods or double blocked classes while shuffing the schedule. Every time the student locks a class into place, that period and class will not be considered again. The student will also have the option to consider alternate schedules that include their althernate classes. The alternate schedule options will operate on a filter-like system where the student must check the alternates they will be considering to be shuffled in and what it will replace. The option to save the current schedule when it is randomized will still be there as it is a filled out schedule.
 
 ### Design
-The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
 
+The blank schedule on the right side will now be filled upon clicking the radomize button. The classes names will be a bit more faded compared to the period names and in regular text whilst the period name is bolded. Depending on the mode, light or dark, The text might change but it will only change if the background of the schedule will change. The classes inside the schedule will also link to the corresponding sides on the left and go to that page if the user clicks on it. When a class is locked in a time slot there will be a lock icon to the right of the period name, faded in color and only one color. 
+	The greyed out zero period will be "faded" compared to the others. The button color will be in line with any color palette, dicussed in feature 15, to the descretion of the design team. The font will stay consistent, as always, as will the text size and type. The option to "filter" through the classes being randomized will operate through a checklist-like list where the classes not being used in the schedule will be greyed out or simple unchecked. The selected classes, however, will have a check through the box next to them. The check box will be white or stroke, and the check/x -- depending on how the checklist is formatted -- will either be green and red, or simply all black or all white.
 
 ### QA
 
