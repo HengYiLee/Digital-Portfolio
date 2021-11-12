@@ -144,10 +144,15 @@ Ability to save schedules
 
 ### Functionality
 
+Button that allows schedules to be saved to your name so that when you log back into the application the schedule that you saved will not disappear.
+
 ### Design
+
+A button that is placed on the application that is blue and displays the word “SAVE” which shows that you haven’t saved your schedule yet. Once you press the button, the button should turn grey and should then display the word “SAVED” to prove that you have saved your schedule. 
 
 ### QA
 
+The schedule does not corrupt which allows the schedule to not be saved. This allows the functionality of this feature to be disabled and for problems to arise in the feature.
 
 # Feature 13
 
