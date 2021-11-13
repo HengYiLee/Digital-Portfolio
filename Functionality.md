@@ -24,14 +24,18 @@ Survey system that recommends classes to students based on their interests/caree
 
 # Feature 3
 
+The number of available seats is displayed for a class.
 ### Functionality
 
-The number of available seats is displayed for a class (not teacher specific).
+For one, it could sort by the avilable seats of a class for a specific teacher and room. It could also be further narrowed by the period and seats avilable in that class. Because these two paramaters are mutually non-exlusive, they should be able to be selected together or neither.  This helps students pick out what class they would prefer putting in higher priority. 
 
 ### Design
 
+When you hover over the class or select a wanted class, a visual representation of how avilable the class is is presented. The representation of the number of seats in a class may change, or perhaps it can be changed. I am unsure if it is better to put this as a menu item on its own, or if it is better to put it with the classes as mentioned before.  If you are selecting a class in general, whith no room number/teacher selected, the program will show the total seats avilable (all classes and period summed together).
+
 ### QA
 
+Many issues may arise with this for the simple fact that it is generally difficult to sort stuff out like that out. Cumalitivly summing together every class and period may lead to some classes being lost in the processes for the bigger subjects. Another issue that, is almost inert, is that class sizes change before school starts and sometimes as school is going, a disclaimer should be added to alert people of that. I think that from a design perspective, trying to implement this without being overly obtrusive is a challenge. 
 
 # Feature 4
 
