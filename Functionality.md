@@ -14,10 +14,15 @@ In order to "QA" this, we can push this functionality by changing the order of o
 
 # Feature 2
 
+Course Survey
+
 ### Functionality
-Survey system that recommends classes to students based on their interests/career path. ,,,
+
+This system is a survey system that recommends classes to students based on their interests/career path by using a similar survey to the naviance career survey, and based on the career results, it will suggest common classes which are important for that path, such as engineering and physics classes for an engineer. This will thwn be saved to a JSON file and stored for later viewing and editing. Tje survey will not only show the primary recommendations, but also less reccomended paths. These paths will ne based on the endorsements from the course planning guide. 
 
 ### Design
+
+The survey will appear in either it's own tab labeled survey or an accounts tab if one is made. It shoukd look like a multiple choice quiz with questions relevant to different endorsements and answers ranging from like to dislike; i.e. like, kinda like, kinda dislike, dislike. Ten questions should be visible on each page with a page selector at the bottom of the screen. A note should be visible on the first page indicating that the quiz is intended for people who do not know what career they would like to pursue.
 
 ### QA
 
