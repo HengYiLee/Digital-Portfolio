@@ -283,6 +283,12 @@ Notifications reminding the user of the arena scheduling date
 
 ### Functionality
 
+The user can choose the option to receive notifications reminding them of the arena scheduling date (i.e., 2 weeks before, 1 week before, 3 days before, 1 day before, 1 hour before, etc.) and also remind them to make their schedule if they haven’t already done so. 
+
 ### Design
 
+When the user downloads the app for the first time, they will receive a system message asking if they want to opt in for notifications. If the user chooses to do so, they will periodically receive notifications from the app on their device. If the user changes their mind and does not want to receive notifications, they can do so through their device’s settings.
+
 ### QA
+
+In order to assure the quality of this feature, the user must be able to receive a notification through their preferred method, without error. We can assure this through a test notification that will be sent to the users device, indicating if they have set or cancelled the notification option.
