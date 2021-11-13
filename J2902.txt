@@ -1,3 +1,12 @@
+DATE 12-Nov-2021
+=====================================================
+What did I learn today? What is the "big idea"?
+I learned about the quality assurance methods of our scheduling application.
+What challenges did I encounter?
+I encountered the challenge of not knowing the methods of quality assurance before the task was done today.
+How has what I've learned impacted my thinking?
+This has impacted my thinking by teaching me several quality assurance methods for features in our scheduling application.
+
 DATE 10-Nov-2021
 =====================================================
 What did I learn today? What is the "big idea"?
