@@ -56,15 +56,16 @@ To assure the quality of this function, we must make sure that the questionaire 
 
 # Feature 5
 
-### Functionality
+Course Popularity Scale
 
-The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
+### Functionality
+The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses. Fetches data from other student's reservation of courses, and displays that on a bar scale that identifies the popularity of that course. Takes into consideration if the student selecting the course has taken the required prerequisites for that class.
 
 ### Design
-
+Displays the bar scale onto a sub-menu that appears when the user hovers the cursor over the course. It will contain a set number of grey bars that will be colored in to correspond to how popular it is among other students (ex. Popular classes will have all the boxes filled in with red, whereas less popular classes will only have a few green boxes); color will indicate how much room is left to join the course. The color of the sub-menu will correspond to which light/dark theme the user has selected.
 
 ### QA
-
+If the feature is working properly, a bar scale will be displayed onto the sub-menu of the course, identifying the correct popularity percentage of that class. If a problem occurs, an error message will be displayed, identifying the corresponding error (ex. Wrong percentage, no bar scale, etc.),  which will let our team know which aspect to work on.
 
 # Feature 6
 
