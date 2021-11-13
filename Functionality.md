@@ -24,14 +24,18 @@ Survey system that recommends classes to students based on their interests/caree
 
 # Feature 3
 
+The number of available seats is displayed for a class.
 ### Functionality
 
-The number of available seats is displayed for a class (not teacher specific).
+For one, it could sort by the avilable seats of a class for a specific teacher and room. It could also be further narrowed by the period and seats avilable in that class. Because these two paramaters are mutually non-exlusive, they should be able to be selected together or neither.  This helps students pick out what class they would prefer putting in higher priority. 
 
 ### Design
 
+When you hover over the class or select a wanted class, a visual representation of how avilable the class is is presented. The representation of the number of seats in a class may change, or perhaps it can be changed. I am unsure if it is better to put this as a menu item on its own, or if it is better to put it with the classes as mentioned before.  If you are selecting a class in general, whith no room number/teacher selected, the program will show the total seats avilable (all classes and period summed together).
+
 ### QA
 
+Many issues may arise with this for the simple fact that it is generally difficult to sort stuff out like that out. Cumalitivly summing together every class and period may lead to some classes being lost in the processes for the bigger subjects. Another issue that, is almost inert, is that class sizes change before school starts and sometimes as school is going, a disclaimer should be added to alert people of that. I think that from a design perspective, trying to implement this without being overly obtrusive is a challenge. 
 
 # Feature 4
 
@@ -52,15 +56,16 @@ To assure the quality of this function, we must make sure that the questionaire 
 
 # Feature 5
 
-### Functionality
+Course Popularity Scale
 
-The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses.
+### Functionality
+The popularity or percentage of students scheduled in a class should be displayed so that students can quickly choose the more popular courses. Fetches data from other student's reservation of courses, and displays that on a bar scale that identifies the popularity of that course. Takes into consideration if the student selecting the course has taken the required prerequisites for that class.
 
 ### Design
-
+Displays the bar scale onto a sub-menu that appears when the user hovers the cursor over the course. It will contain a set number of grey bars that will be colored in to correspond to how popular it is among other students (ex. Popular classes will have all the boxes filled in with red, whereas less popular classes will only have a few green boxes); color will indicate how much room is left to join the course. The color of the sub-menu will correspond to which light/dark theme the user has selected.
 
 ### QA
-
+If the feature is working properly, a bar scale will be displayed onto the sub-menu of the course, identifying the correct popularity percentage of that class. If a problem occurs, an error message will be displayed, identifying the corresponding error (ex. Wrong percentage, no bar scale, etc.),  which will let our team know which aspect to work on.
 
 # Feature 6
 
@@ -167,10 +172,15 @@ Share option with yourself or friends
 
 ### Functionality
 
+After finishing out a schedule, a user should be able to export it into another program, namely social media programs. The function should do so automatically with only asking the user to login into their account of the respective social media platform. If a public username/account system is put into place, the users should be able to send their schedules to one another through the app itself, this option should be with the other options.
+
 ### Design
+
+The design should be minor and non obtrusive. Perhaps next to the aformentioned SAVE button in Feature 12, there should be a smaller grey upload button, after clicking it it opens a small dioluge box where it asks for how (format, sizing, appearance ect.) and where you want to share it to. 
 
 ### QA
 
+A very large issue with this is getting the app to communicate with other apps consistently. A bug could occur where the user will end up uploading nothing because the payload will never actually be communicated. It's proximity to the SAVE button might also cause issues when designing the UI/UX. A similar issue to the SAVE fucntionallity is that the payload would be curropt. 
 
 # Feature 14
 
