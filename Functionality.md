@@ -26,6 +26,7 @@ The survey will appear in either it's own tab labeled survey or an accounts tab 
 
 ### QA
 
+Some potential problems which may arise is the risk of mixing up the various career paths, which may result instudents choosing paths which do not interest them. This can be fixed by just checking over and testing frequently to ensure it is functioning properly. Another potential risk is in possibly assigning the wrong values or reversing values for answers. This can ba prevented by using a temolate for each group of questions and answers.
 
 # Feature 3
 
