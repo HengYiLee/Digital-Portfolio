@@ -171,10 +171,15 @@ Share option with yourself or friends
 
 ### Functionality
 
+After finishing out a schedule, a user should be able to export it into another program, namely social media programs. The function should do so automatically with only asking the user to login into their account of the respective social media platform. If a public username/account system is put into place, the users should be able to send their schedules to one another through the app itself, this option should be with the other options.
+
 ### Design
+
+The design should be minor and non obtrusive. Perhaps next to the aformentioned SAVE button in Feature 12, there should be a smaller grey upload button, after clicking it it opens a small dioluge box where it asks for how (format, sizing, appearance ect.) and where you want to share it to. 
 
 ### QA
 
+A very large issue with this is getting the app to communicate with other apps consistently. A bug could occur where the user will end up uploading nothing because the payload will never actually be communicated. It's proximity to the SAVE button might also cause issues when designing the UI/UX. A similar issue to the SAVE fucntionallity is that the payload would be curropt. 
 
 # Feature 14
 
