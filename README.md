@@ -12,7 +12,7 @@ QA Manager - Heng Yi Lee: Leads the QA engineer in going through bug tests for t
 
 Release Manager - Nimo O: Mangaes the versions and branches of the app. Makes sure there is no erros when uploading things onto github and mangaes the versions of each push onto github.
 
-UI Designer - Susie Lee Desgins the view for the users to easily use. For example, the colors and desgin, possibly even the logo as well.
+UI Designer - Susie Lee: Designs the view of the app for the users to easily use. Makes it so that the interface is optimized for a great user experience. For example, the colors and design and symbols, possibly even the logo as well.
 
 UX Designer - Erron Cruz Desgins for the user expereince. Helps for ease of acces, and makes sure the user knows how to operate on the app.
 
