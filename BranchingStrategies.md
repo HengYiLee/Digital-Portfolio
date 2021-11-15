@@ -1,21 +1,22 @@
-Catagory 1
+# Category 1
 
-Pros:
+## Pros:
 
-Cons:
+## Cons:
 
-Catagory 2
 
-Pros:
+# Category 2
 
-Cons:
+## Pros:
 
-Catagory 3
+## Cons:
 
-Pros:
 
-Cons:
+# Category 3
 
+## Pros:
+
+## Cons:
 
 
 
