@@ -1,16 +1,16 @@
-Catagory 1
+Category 1
 
 Pros:
 
 Cons:
 
-Catagory 2
+Category 2
 
 Pros:
 
 Cons:
 
-Catagory 3
+Category 3
 
 Pros:
 
