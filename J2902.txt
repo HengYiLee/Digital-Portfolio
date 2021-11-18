@@ -1,3 +1,21 @@
+DATE 18-Nov-2021
+=====================================================
+What did I learn today? What is the "big idea"?
+I learned about more of the possible branching strategies which could be used for our scheduling application.
+What challenges did I encounter?
+I encountered the challenge of not knowing all of the branching strategies before we completed the task.
+How has what I've learned impacted my thinking?
+This has impacted my thinking by teaching me several of the important branching strategies we could use for the scheduling application.
+
+DATE 16-Nov-2021
+=====================================================
+What did I learn today? What is the "big idea"?
+I learned about some of the possible branching strategies which could be used for our scheduling application.
+What challenges did I encounter?
+I encountered the challenge of not knowing all of the branching strategies before we completed the task.
+How has what I've learned impacted my thinking?
+This has impacted my thinking by teaching me several of the branching strategies we could use for the scheduling application.
+
 DATE 12-Nov-2021
 =====================================================
 What did I learn today? What is the "big idea"?
