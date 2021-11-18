@@ -1,5 +1,5 @@
-# Category 1
-GitFlow
+# GitFlow
+
 ## Description: 
 Long lived branches and large commits. A developer will only merge the feature branch into the main branch once the feature has been finished. Main splits off into a development branch, which is further branched into specific features. Those features are eventually merged into the dev branch. The Dev branch is forked to create a release branch, where only housekeeping (bug fixes, documentation etc.) is done. Once that stage of developmentis finished, the release is merged into main and tagged with the version (the release branch should be merged into the develop branch and killed at this point).
 ## Pros:
