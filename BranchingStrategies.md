@@ -31,9 +31,14 @@ Single large long lived branch, named the trunk where all the developerscommit i
 * commit history can get messy and impractical
 * merge hell can still occur 
 * Unlike gitflow, there is no way to actually test builds and do housekeeping on the repo itself, hence the need for a build server. 
-# Category 3
+
+# Task Branching(Feature Branching Strategy)
+Using this strategy makes the branching for specific features or tasks easier. This allows developers to create branches for each task, which can be refered to as "user stories". Also, this allows developers to more easily fix bugs, because of the high level of organization this method allows.
 
 ## Pros:
+* Allows developers to work independently, giving freedom to experiment and access specific material.
+* Offers high levels of organization. This can help with segmentation, meaning that different parts of the team can update various parts of the project at the same time.
+* Can help prevent conflicts by integrating changes (commiting and pushing) and recieving changes (pulling and merging) frequently
 
 ## Cons:
 
