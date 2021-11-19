@@ -58,10 +58,11 @@ Using this strategy makes the branching for specific features or tasks easier. T
 
 # Finalized Branching Strategy
 
+(slightly altered) Trunk Based
 
 ## Reason for the selection
 
-
+This system is pretty optimal for smaller teams who work on features seperatly. Due to how multifaseted this project is I imagine a lot of time will be spent merging if we go with the alternate systems. Shorter lived branches work fine and inertly we will have to use a build server. 
 
 # Rules
 
@@ -70,15 +71,22 @@ Using this strategy makes the branching for specific features or tasks easier. T
   * Communication with Development Manager is important for this rule because they are in charge of communicating with CS3 Groups. Without this communication, we will have un-organization and confusion within group members.
 * Request for features which were finalized ONLY.
   * If a feature that we decided not to implement gets added, it will cause problems with UI design and deadlines which we set. Accuracy of requests we make to our CS3 API group is important.
+* When creating a new feature, write it into your own local branches, if you expect to work on it with several people, create a fork of the main branch (expect it to be deleted soon). 
+* When the feature is complete and ready to be put into release. Create a pull request or merge request, this step is done just to keep organized and minimize possible points where mistakes can be made.
 
 ## Resolving Bugs
 * Communicate with group members.
   * Communication with the front end, back end, and QA engineer is important, along with communication with the QA Manager. This is important to make sure you are fixing something that is actually meant to be fixed, and make sure that there wont be future complications due to additions.
 * File GitHub Issues if you find a bug.
   * This will help the QA Engineer and QA Manager stay organized throughout their progress on the bugs. It will also be accessible for the CS3 group to see our progress on bugs.
+* similarly, write it into your local branch and create a pull request or merge request. 
+* If this project grows in scale beyond what I think, create a temporary bug fix branch before merging into the main branch
+  * this is borrowed from the GitFlow work flow
 
 ## Managing Releases
 * Communicate with other group members.
   * Communicate with all group members, especially the Release manager. This is important because in order to change parts of the realease, the release manager mush be consulted to make sure everything is working correctly, and that there is enough time to make changes. If we have faulty releases, it can mess up functionality with the API and future progression.
 * Before making releases, we should make sure the functionalities which we have implemented are working correctly.
   * User experience is an important part of the creation of the app, and in order to ensure that it is a good experience, we need to make sure that there arent any bugs which would drasitically decrease that aspect of our project.
+* utilize flags and tags based on a set and standard convention
+ * when we begin to write the code, we'll have a better idea of what that convention is
