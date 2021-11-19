@@ -43,15 +43,15 @@ Using this strategy makes the branching for specific features or tasks easier. T
 
 ## Pros:
 * Allows developers to work independently, giving freedom to experiment and access specific material.
- * Although it allows for more independent work, it is still requested that you collaborate and communicate as progress is made to avoid conflicts later on.
+  * Although it allows for more independent work, it is still requested that you collaborate and communicate as progress is made to avoid conflicts later on.
 * Offers high levels of organization. This can help with segmentation, meaning that different parts of the team can update various parts of the project at the same time.
- * Another factor which helps with independent work and organization. Can be helpful when finding the root cause of bugs or progress which may have caused unintended changes.
+  * Another factor which helps with independent work and organization. Can be helpful when finding the root cause of bugs or progress which may have caused unintended changes.
 * Can help prevent conflicts by integrating changes (commiting and pushing) and recieving changes (pulling and merging) frequently
 
 ## Cons:
 * Can be difficult to merge after some time of not being updated
- * Can use a plan to periodically merge to avoid this
- * This issue becomes prevalent because of un-involved progress
+  * Can use a plan to periodically merge to avoid this
+  * This issue becomes prevalent because of un-involved progress
 * Adds responsability to some members of group to manage and organize the branching method.
 
 ## Strategy we'll use (placeholder)
