@@ -54,6 +54,25 @@ Using this strategy makes the branching for specific features or tasks easier. T
   * This issue becomes prevalent because of un-involved progress
 * Adds responsability to some members of group to manage and organize the branching method.
 
-## Strategy we'll use (placeholder)
 
-Reasoning:
+
+# Finalized Branching Strategy
+
+
+## Reason for the selection
+
+
+
+# Rules
+
+## Adding Features (Includes requesting features for API)
+* Communicate with other group members
+  * Communication with Development Manager is important for this rule because they are in charge of communicating with CS3 Groups. Without this communication, we will have un-organization and confusion within group members
+
+## Resolving Bugs
+* Communicate with group members
+  * Communication with the front end, back end, and QA engineer is important, along with communication with the QA Manager. This is important to make sure you are fixing something that is actually meant to be fixxed, and make sure that there wont be future complications due to additions.
+
+## Managing Releases
+* Communicate with other group members
+  * Communicate with all group members, especially the Release manager. This is important because in order to change parts of the realease, the release manager mush be consulted to make sure everything is working correctly. If we have faulty releases, it can mess up functionality with the API and future progression.
