@@ -66,13 +66,19 @@ Using this strategy makes the branching for specific features or tasks easier. T
 # Rules
 
 ## Adding Features (Includes requesting features for API)
-* Communicate with other group members
-  * Communication with Development Manager is important for this rule because they are in charge of communicating with CS3 Groups. Without this communication, we will have un-organization and confusion within group members
+* Communicate with other group members.
+  * Communication with Development Manager is important for this rule because they are in charge of communicating with CS3 Groups. Without this communication, we will have un-organization and confusion within group members.
+* Request for features which were finalized ONLY.
+  * If a feature that we decided not to implement gets added, it will cause problems with UI design and deadlines which we set. Accuracy of requests we make to our CS3 API group is important.
 
 ## Resolving Bugs
-* Communicate with group members
-  * Communication with the front end, back end, and QA engineer is important, along with communication with the QA Manager. This is important to make sure you are fixing something that is actually meant to be fixxed, and make sure that there wont be future complications due to additions.
+* Communicate with group members.
+  * Communication with the front end, back end, and QA engineer is important, along with communication with the QA Manager. This is important to make sure you are fixing something that is actually meant to be fixed, and make sure that there wont be future complications due to additions.
+* File GitHub Issues if you find a bug.
+  * This will help the QA Engineer and QA Manager stay organized throughout their progress on the bugs. It will also be accessible for the CS3 group to see our progress on bugs.
 
 ## Managing Releases
-* Communicate with other group members
-  * Communicate with all group members, especially the Release manager. This is important because in order to change parts of the realease, the release manager mush be consulted to make sure everything is working correctly. If we have faulty releases, it can mess up functionality with the API and future progression.
+* Communicate with other group members.
+  * Communicate with all group members, especially the Release manager. This is important because in order to change parts of the realease, the release manager mush be consulted to make sure everything is working correctly, and that there is enough time to make changes. If we have faulty releases, it can mess up functionality with the API and future progression.
+* Before making releases, we should make sure the functionalities which we have implemented are working correctly.
+  * User experience is an important part of the creation of the app, and in order to ensure that it is a good experience, we need to make sure that there arent any bugs which would drasitically decrease that aspect of our project.
