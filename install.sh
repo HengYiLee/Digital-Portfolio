@@ -1,2 +1,2 @@
-$ cp www/
-$ chmod a=x
+$ cp ~/www/
+$ chmod a+x
