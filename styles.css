@@ -1,0 +1,51 @@
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #f1f1f1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Times New Roman;
+    background-color: #000080
+}
+
+.tab .button {
+    background-color: inherit;
+    float: left;
+    border: 50px;
+    margin: 4px 2px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #696969;
+}
+
+.tab .button:not(:last-child) {
+    border-right: none;
+}
+
+.tab button.active {
+    background-color: #000000;
+}
+
+.tabcontent {
+    display: "A";
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
