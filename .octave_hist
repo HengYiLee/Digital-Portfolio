@@ -1,0 +1,12 @@
+graphics_toolkit("gruplot")
+graphics_toolkit("gnuplot")
+tx = ty = linspace (-8, 8, 41);
+[xy, yy] = meshgrid(tx, ty);
+r = sqrt(xx .^2 + yy .^2) + eps;
+r = sqrt (xx .^2 + yy .^2) + eps;
+[xx, yy] = meshgrid (tx, ty);
+r = sqrt (xx .^2 + yy .^2) + eps;
+tz = sin (r) ./ r;
+xLabel ("tx");
+exit
+# Octave 5.2.0, Mon Mar 28 08:57:56 2022 CDT <heng-yi-lee@codermerlin>
