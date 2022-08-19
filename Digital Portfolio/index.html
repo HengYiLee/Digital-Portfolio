@@ -1,5 +1,31 @@
+<!DOCTYPE html>
+
 <html>
-  <body>
-    <p>Hello, World!</p>
-  </body>
+  <Head>
+    <Title>Make a Nav bar</Title>
+    <link rel="stylesheet" href ="styles.css">
+  </Head>
+  <div class ="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    <button class="tablinks" onclick="openCity(event, 'A')">A</button>
+    <button class="tablinks" onclick="openCity(event, 'B')">B</button>
+    <button class="tablinks" onclick="openCity(event, 'C')">C</button>
+  </div>
+
+  <div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London bridge is not falling down</p>
+  </div>
+  <div id="A" class="tabcontent">
+    <h3>Apples</h3>
+    <p>Apple bridge is not falling down</p>
+  </div>
+  <div id="B" class="tabcontent">
+    <h3>Bananas</h3>
+    <p>banana bridge is not falling down</p>
+  </div>
+  <div id="C" class="tabcontent">
+    <h3>Cranberries</h3>
+    <p>Cranberry bridge is not falling down</p>
+  </div>
 </html>
