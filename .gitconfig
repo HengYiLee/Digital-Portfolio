@@ -1,0 +1,8 @@
+[user]
+	email = hengyi.lee@student.allenisd.org
+	name = Heng Yi Lee
+[credential]
+	helper = store --file ~/.git-credentials
+	useHttpPath = true
+[push]
+	default = matching
