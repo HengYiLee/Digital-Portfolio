@@ -1,3 +1,36 @@
+body {
+    background: #FFAE42;
+}
+
+.animation {
+    width: 20%;
+    top: 30%;
+    position: absolute;
+    left: 40%;
+    border-bottom: 5px solid black;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+}
+
+.animation h1 {
+    color: black;
+}
+
+@keyframes animate {
+    0% {
+	width: 0px;
+	height: 0px;
+    }
+    30% {
+	width: 150px;
+	height: 0px;
+    }
+    60% {
+	width: 150px;
+	height: 200px;
+    }
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
