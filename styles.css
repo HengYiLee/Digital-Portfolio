@@ -1,6 +1,8 @@
 body {
-    background: #FFAE42;
-}
+    background: #111;
+    font-family: Consolas, Courier, monospace;
+    color: #00ffff;
+} 
 
 .animation {
     width: 20%;
@@ -13,7 +15,7 @@ body {
 }
 
 .animation h1 {
-    color: black;
+    color: #ffffff;
 }
 
 @keyframes animate {
@@ -54,4 +56,3 @@ body {
     background-color: #000000;
     color: white;
 }
-
