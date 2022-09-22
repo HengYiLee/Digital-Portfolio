@@ -64,16 +64,14 @@ body {
 }
 
 .essayHeader{
-    text-align: center;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .essay{
-    text-indent: 50px;
+    text-indent: 16px;
     line-height: 2;
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .centertxt{
@@ -81,11 +79,10 @@ body {
 }
 
 .hanging{
-    padding: 10px;
+    padding: 16px;
     padding-left: 64px;
     text-indent: -60px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 16px;
     line-height: 2;
 
 }
