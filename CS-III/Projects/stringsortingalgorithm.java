@@ -1,66 +1,65 @@
-//with reference to javatpoint.com/how-to-iterate-map-in-java & javatpoint.com/how-to-return-an-array-in-java
-
-import java.util.Collections;  
-import java.util.Comparator;  
-import java.util.HashMap;  
-import java.util.Iterator;  
-import java.util.LinkedHashMap;  
-import java.util.LinkedList;  
-import java.util.List;  
-import java.util.Map;  
-import java.util.Set;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class stringsortingalgorithm {
     
-    public static void main(String[] args) {  
-
-	HashMap<Integer, String> nameList = new HashMap<Integer, String>();  
-	nameList.put(1, "Alan");  
-	nameList.put(2, "Roybal");  
-	nameList.put(3, "Adheesh");  
-	nameList.put(4, "Katru");  
-	nameList.put(5, "Heng Yi");  
-	nameList.put(6, "Lee");  
-	nameList.put(7, "Zoe");
-	nameList.put(8, "Yau");
-	nameList.put(9, "David");
-	nameList.put(10, "Ben-Yaakov");
-	System.out.println("Given names:");
-	
-	Set nameset = nameList.entrySet();  
-	Iterator nameiterator = nameset.iterator();  
-	while(nameiterator.hasNext())   
-	    {  
-		Map.Entry map = (Map.Entry)nameiterator.next();  
-		System.out.println("Hashmap Key:  "+map.getKey()+" |     Name:   "+map.getValue());  
-	    }  
-	Map<Integer, String> map = sortValues(nameList);   
-	System.out.println("\n");  
-	System.out.println("Name List After Sorting:");  
-	Set newnameset = map.entrySet();  
-	Iterator nameiterator2 = newnameset.iterator();
-	
-	while(nameiterator2.hasNext()) {  
-		Map.Entry namemap = (Map.Entry)nameiterator2.next();  
-		System.out.println("Hashmap Key:  "+namemap.getKey()+" |     Name:   "+namemap.getValue());  
-	    }  
-    }
+    String names[];
+    int length;
     
-    private static HashMap sortValues(HashMap map) {   
-	List namelist = new LinkedList(map.entrySet());  
-	Collections.sort(namelist, new Comparator()   
-	    {  
-		public int compare(Object name1, Object name2)   
-		{  
-		    return ((Comparable) ((Map.Entry) (name1)).getValue()).compareTo(((Map.Entry) (name2)).getValue());  
-		}  
-	    });  
-	HashMap sortednameHashMap = new LinkedHashMap();  
-	for (Iterator ifnextkey = namelist.iterator(); ifnextkey.hasNext();)   
-	    {  
-		Map.Entry entry = (Map.Entry) ifnextkey.next();  
-		sortednameHashMap.put(entry.getKey(), entry.getValue());  
-	    }   
-	return sortednameHashMap;  
-    }  
-}  
+    public static void main(String[] args) {
+        stringsortingalgorithm sorter = new stringsortingalgorithm();
+        String words[] = {"zz", "aa", "cc", "hh", "bb", "ee", "ll"};
+	    sorter.sort(words);
+
+        for (String i : words) {
+            System.out.print(i);
+            System.out.print("\n");
+        }
+    }
+
+    void sort(String array[]) {
+        if (array == null || array.length == 0) {
+            return;
+        }
+        this.names = array;
+        this.length = array.length;
+        quickSort(0, length - 1);
+    }
+
+    void quickSort(int lowerIndex, int higherIndex) {
+        int i = lowerIndex;
+        int j = higherIndex;
+        String pivot = this.names[lowerIndex + (higherIndex - lowerIndex) / 2];
+
+        while (i <= j) {
+            while (this.names[i].compareToIgnoreCase(pivot) < 0) {
+                i++;
+            }
+
+            while (this.names[j].compareToIgnoreCase(pivot) > 0) {
+                j--;
+            }
+
+            if (i <= j) {
+                exchangeNames(i, j);
+                i++;
+                j--;
+            }
+        }
+        //call quickSort recursively
+        if (lowerIndex < j) {
+            quickSort(lowerIndex, j);
+        }
+        if (i < higherIndex) {
+            quickSort(i, higherIndex);
+        }
+    }
+
+    void exchangeNames(int i, int j) {
+        String temp = this.names[i];
+        this.names[i] = this.names[j];
+        this.names[j] = temp;
+    }
+}
